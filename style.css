@@ -1,12 +1,53 @@
-div #bluelink {
-	color: #0099FF;
-	text-decoration: none;
-}
-div #whitelink {
-	color: #FFFFFF;
-	text-decoration: none;
+html, body {
+    font-family: "ヒラギノ角ゴシック W2","Hiragino Kaku Gothic W4",
+      "Noto Sans CJK JP",
+      "YuGothic", YuGothic,
+      "Hiragino Sans",
+      "メイリオ", Meiryo,
+      "VL PGothic",
+      "Droid Sans Japanese",
+      "Takaoゴシック","TakaoGothic",
+      "ＭＳ Ｐゴシック", "MS PGothic",
+      "Nunito Sans",
+      sans-serif;
+  
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  
+    margin: 0;
 }
 
+a {
+    color: #3498db;
+    text-decoration: none;
+
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #5bd1d7;
+}
+
+.gray-background {
+    background-color: #666666;
+    text-align: center;
+    color: #fff;
+}
+
+.wrap {
+    display: inline-block;
+    max-width: 80%;
+}
+
+.wrap img {
+    max-width: 100%;
+}
+
+/* メニューボタン */
 .button {
 	display: inline-block;
 	width: 200px;
@@ -15,6 +56,9 @@ div #whitelink {
 	text-decoration: none;
 	line-height: 54px;
 	outline: none;
+
+    background-color: #666666;
+	color: #fff;
 }
 .button::before,
 .button::after {
@@ -32,23 +76,20 @@ div #whitelink {
 	-webkit-transition: all .3s;
 	transition: all .3s;
 }
-
-.button {
-	background-color: #666666;
-	color: #fff;
-}
 .button:hover {
 	background-color: #59b1eb;
 }
 
 .button2 {
 	display: inline-block;
-	width: 100px;
-	height: 40px;
+    padding: 5px 10px 5px 10px;
 	text-align: center;
 	text-decoration: none;
 	line-height: 40px;
 	outline: none;
+
+    background-color: #666666;
+	color: #fff;
 }
 .button2::before,
 .button2::after {
@@ -66,45 +107,6 @@ div #whitelink {
 	-webkit-transition: all .3s;
 	transition: all .3s;
 }
-
-.button2 {
-	background-color: #666666;
-	color: #fff;
-}
 .button2:hover {
 	background-color: #59b1eb;
-}
-
-p.resizeimage img { width: 100%; }
-
-p {
-font-size: 200%;
-font-weight: midium;
-}
-
-.wf-mplus1p { font-family: "Mplus 1p"; }
-.wf-roundedmplus1c { font-family: "Rounded Mplus 1c"; }
-
-p.font1 { font-family: "Rounded Mplus 1c", serif; }
-
-.text-center{
-	background: #ccc;
-	padding: 20px 0;
-	text-align: center;
-}
-
-
-body > #wrap {display:none;}
-
-
-div.css-left { 
-   text-align: left;
-   float: left;
-}
-div.css-right { 
-   text-align: right;
-}
-div.titlebar {
-   background-color:#cc0000; color:white;
-   font-weight:bold; padding:0.1em;
 }
