@@ -41,6 +41,7 @@ a:hover {
 .wrap {
     display: inline-block;
     max-width: 80%;
+	justify-content: center;
 }
 
 .wrap img {
@@ -109,4 +110,23 @@ a:hover {
 }
 .button2:hover {
 	background-color: #59b1eb;
+}
+
+.summary .catch {
+	font-size: 36px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+.summary .text-wrap {
+	display:flex;
+	justify-content: center;
+}
+.summary .text-wrap .text {
+	font-size: 16px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+	text-align: left;
+
+	width: fit-content;
 }
